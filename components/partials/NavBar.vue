@@ -1,10 +1,13 @@
 <template>
-    <div>
-        <h1>Home</h1>
-        <h1>Services</h1>
-        <h1>Contact</h1>
-        <h1>Company</h1>
-        <h1>Testimonials</h1>
+    <div class="navbar">
+        <div class="link-container">
+        <p>Home</p>
+        <p>Company</p>
+        <p>Services</p>
+        <p>Testimonials</p>
+        <p>Contact</p>
+        </div>
+     
     </div>
 </template>
 
@@ -12,8 +15,14 @@
 
 </script>
 
-<style>
-    h1 {
-        font-size: 20px;
+<style lang="scss">
+    .navbar, .link-container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
     }
+
+  h1 {
+    font-size: 10px;
+  }
 </style>
