@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="services">
         <h1>Services</h1>
  
          <section>
@@ -22,8 +22,13 @@ export default {
 </script>
 
 
-<style>
-    h1 {
-        font-size: 20px;
+<style lang="scss">
+    .services {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 150px;
+      padding-right: 150px;
+      text-align: center;
     }
 </style>

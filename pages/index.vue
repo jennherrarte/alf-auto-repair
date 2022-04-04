@@ -1,12 +1,10 @@
 <template>
 <div>
 <section>
-  <NavBar/>
+  <Header/>
   </section>
 
-  <section>
-  <Header/>
-    </section>
+
 
       <section>
   <About/>
@@ -34,7 +32,6 @@
 
 <script>
 
-import NavBar from '@/components/partials/NavBar'
 import Header from '@/components/Header'
 import About from '@/components/About'
 import Services from '@/components/Services'
@@ -46,7 +43,6 @@ export default {
   name: 'IndexPage',
 
   components: {
-    NavBar,
     Header,
     About,
     Services,

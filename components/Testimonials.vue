@@ -2,12 +2,20 @@
     <div>
         <h1>Testimonials</h1>
 <p>SWIPER</p>
-
+<Swiper/>
     </div>
 </template>
 
 <script>
+import Swiper from '@/components/subcomponents/Swiper'
 
+export default {
+ 
+
+  components: {
+    Swiper
+  }
+}
 </script>
 
 

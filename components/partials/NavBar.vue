@@ -1,11 +1,11 @@
 <template>
     <div class="navbar">
         <div class="link-container">
-        <p>Home</p>
-        <p>Company</p>
-        <p>Services</p>
-        <p>Testimonials</p>
-        <p>Contact</p>
+        <p class="link">Home</p>
+        <p class="link">Company</p>
+        <p class="link">Services</p>
+        <p class="link">Testimonials</p>
+        <p class="link">Contact</p>
         </div>
      
     </div>
@@ -20,6 +20,13 @@
         display: flex;
         flex-direction: row;
         width: 100%;
+        justify-content: flex-end;
+  
+    }
+
+    .link {
+        padding-right: 20px;
+        margin-bottom: 0;
     }
 
   h1 {
